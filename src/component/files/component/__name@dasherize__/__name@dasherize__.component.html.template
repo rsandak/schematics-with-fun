@@ -1,1 +1,2 @@
-<span><%= classify(name) %> component works!</span>
+<app-<%= dasherize(name) %>-view>
+</app-<%= dasherize(name) %>-view>
