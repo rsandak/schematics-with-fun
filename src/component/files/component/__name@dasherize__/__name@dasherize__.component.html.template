@@ -1,0 +1,1 @@
+<span><%= classify(name) %> component works!</span>
