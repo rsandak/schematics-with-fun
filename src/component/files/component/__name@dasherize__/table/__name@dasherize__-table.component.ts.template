@@ -1,0 +1,14 @@
+import { Component, Input } from '@angular/core';
+import { <%= classify(name) %>Overview } from './<%= dasherize(name) %>-overview';
+
+@Component({
+    selector: 'app-<%= dasherize(name) %>-table',
+    templateUrl: './<%= dasherize(name) %>-table.component.html',
+    styleUrls: ['./<%= dasherize(name) %>-table.component.css']
+})
+export class <%= classify(name) %>TableComponent {
+
+    @Input() dataSource: <%= classify(name) %>Overview[] = [];
+
+    displayedColumns: string[] = ['id', 'name', 'actions'];
+}

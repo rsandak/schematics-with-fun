@@ -1,0 +1,4 @@
+export interface <%= classify(name) %>Overview {
+    id: number;
+    name: string;
+}

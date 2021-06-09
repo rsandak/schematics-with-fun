@@ -17,6 +17,15 @@
         "$source": "argv",
         "index": 0
       }
+    },
+    "withTable": {
+      "type": "boolean",
+      "description": "When true, creates the the table component",
+      "default": false
+    },
+    "module": {
+      "type": "string",
+      "description": "The declaring NgModule."
     }
   }
 }
